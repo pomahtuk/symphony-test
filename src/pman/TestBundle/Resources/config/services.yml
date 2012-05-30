@@ -1,0 +1,7 @@
+parameters:
+#    pman_test.example.class: pman\TestBundle\Example
+
+services:
+#    pman_test.example:
+#        class: %pman_test.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]

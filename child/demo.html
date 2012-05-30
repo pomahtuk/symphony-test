@@ -1,0 +1,661 @@
+﻿<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>DYM markup main</title>
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<meta name="viewport" content="width=device-width">		
+		
+		
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/text.css" />
+		<link rel="stylesheet" href="css/960.css" />
+		<link rel="stylesheet" href="css/demo.css" />
+		
+		<script src="js/libs/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script src="./js/jquery.easing.1.3.js"></script>
+		<script src="./js/jquery.slider.min.js"></script>
+		<script src="./js/jquery.mousewheel.js"></script>
+		<script src="./js/scrollable.js"></script>
+		<!--<script src="./js/jquery.tools.min.js"></script>-->
+		
+	</head>
+	<body>
+	<script>
+		$(document).ready(function(){
+			$('#scrollableNew, #brand, #category, #sale').scrollable({
+				circular: true,
+				mousewheel: true,
+				prev: ".lft",				
+				next: ".rght"		
+			});
+			
+			$('#2, #3').hide();
+			
+			$("ul.tabs li a.switch").click(function(){
+				$('#1, #2, #3').hide();
+				$("ul.tabs li").removeClass("active_tab");
+				$(this).parent().addClass("active_tab");
+				tmp = $(this).attr('href')
+				$(tmp).show();
+				return false;
+			})
+			
+			$(".cart a").hover(
+			  function () {
+				$(this).css("color","#725FAE");
+				$(".cart_table td.second").css("color","#725FAE")
+			  },
+			  function () {
+				$(this).css("color","#999");
+				$(".cart_table td.second").css("color","#999")
+			  }
+			);
+			
+			$(".btn_red").mouseenter(function(){
+				wrp = $(".antimouse");
+				wrp.show();
+				wrp.unbind();
+				
+				if ($(this).hasClass("btn_red")) {
+					under = $(".red");
+					$("#drp_next").width(750);
+					$("#drp_prev").width(0);
+				}
+				else {
+					under = $(".blue");
+					$("#drp_next").width(560);
+					$("#drp_prev").width(190);
+				}
+				
+				under.show();
+				$(".drop_menu").show();
+				
+				$("#drp_next").mouseenter(function(){
+					wrp.hide(); 
+					under.hide();
+					$(".drop_menu").hide();
+				});
+				
+				$("#drp_prev").mouseenter(function(){
+					wrp.hide(); 
+					under.hide();
+					$(".drop_menu").hide();
+				});				
+				
+				wrp.mouseenter(function(){
+					wrp.hide(); 
+					under.hide();
+					$(".drop_menu").hide();
+				});
+				
+				return false;
+			});			
+			
+			$(".slider").slideshow({
+				width      : 940,
+				height     : 250,
+				transition : "fade"
+			});
+			
+		});
+	</script>
+	
+		<div class="antimouse">
+		</div>
+		
+		<div class="drop_menu">
+			<div class="upper_nav_drp">
+				<div id="drp_prev"></div>
+				<div class="button_under red buttons">
+					<a class="btn_red" href="#">&nbsp;</a>
+				</div>
+				<div class="button_under blue buttons">
+					<a class="btn_blue" href="#">Бренды</a>
+				</div>
+				<div id="drp_next"></div>
+			</div>
+			<div class="content_drp red">
+				<div class="left_drp">
+					<ul>
+						<li><a href="#">Категория 1</a></li>
+						<li><a href="#">Категория 2</a></li>
+						<li><a href="#">Категория 3</a></li>
+						<li><a href="#">Категория 4</a></li>
+						<li><a href="#">Категория 5</a></li>
+						<li><a href="#">Категория 6</a></li>
+						<li><a href="#">Категория 7</a></li>
+						<li><a href="#">Категория 8</a></li>
+						<li><a href="#">Категория 9</a></li>
+						<li><a href="#">Категория 10</a></li>
+						<li><a href="#">Категория 11</a></li>
+						<li><a href="#">Категория 12</a></li>
+						<li><a href="#">Категория 13</a></li>
+						<li><a href="#">Категория 14</a></li>
+						<li><a href="#">Категория 15</a></li>
+						<li><a href="#">Категория 16</a></li>
+						<li><a href="#">Категория 1</a></li>
+					</ul>
+				</div>
+				<!--<div class="right_drp">
+					<h4>Название промо-продукта</h4>
+					<img align="right" src="http://placehold.it/230x160" width="230" height="160">
+					<p>Игрушка Большой набор Поезд серии Дупло от компании Lego позволит построить не только железную дорогу, но и целую разгрузочную станцию.</p>
+					<span class="price_drp">1890,-</span>
+					<a class="btn_red to_cart_drp" href="#">В корзину</a>
+				</div>-->
+			</div>							
+		</div>		
+	
+		<div class="header">
+			<div class="container_12">
+				<div class="grid_12 top_menu">
+					<div class="top_menu_upper">
+						<div class="logo_block">
+							<img align="left" class="logo" src="http://placehold.it/250x50" width="250" height="50" alt="">
+							<h1>Детский универсальный магазин</h1>
+						</div>
+						
+						<div class="callback">
+							<img align="left" src="./img/phone.png" width="16" height="30" />
+							<span>+7 812 123-45-67</span>
+							<a class="callback_button" href="#"> Заказать обратный звонок</a>
+						</div>
+						
+						<div class="cart">
+							<img align="left" src="./img/cart.png" width="24" height="20" />
+							<a href="#">Ваша корзина</a>
+							<table class="cart_table">
+								<tbody>
+									<tr>
+										<td>Товаров</td>
+										<td class="second">17</td>
+									</tr>
+									<tr>
+										<td>На сумму</td>
+										<td class="second">18 950р.</td>
+									</tr>									
+								</tbody>
+							</table>
+						</div>
+						
+						<div class="user_login">
+							<a href="#">Регистрация</a>
+							<form class="login_form" method="POST" action="/">
+								<input class="login_form_text" type="text" size="15" value="Логин" name="login">
+								<input class="login_form_text" type="password" size="15" value="123456" name="password">
+								<input class="login_form_submit" type="submit" value="Вход">
+							</form>
+						</div>						
+					</div>
+					<div class="top_menu_navigation">
+						<a href="#">О магазине</a>|
+						<a href="#">Советы и рекомендации</a>|
+						<a href="#">Доставка и оплата</a>|
+						<a href="#">Контактная информация</a>|
+						<a href="#">Личный кабинет</a>|
+						<a href="#">Поставщикам</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<div class="content">
+			<div class="container_12">
+				<div class="grid_12 nav_bar">
+					<div class="nav_header">
+						<h3>Поиск</h3>
+						<form class="search_form" method="POST" action="/">
+							<input class="search_form_longtext" type="text" size="60" value="Название товара" name="name">
+							<input class="search_form_text" type="text" size="20" value="Мин. цена" name="miprice">
+							<input class="search_form_text" type="text" size="20" value="Макс. цена" name="maxprice">
+							<input class="search_form_submit" type="submit" value="Найти">
+						</form>
+					</div>
+					<div class="clear"></div>
+					<div class="buttons">
+						<a class="btn_red" href="#">&nbsp;</a>
+						<a class="btn_blue" href="#">Бренды</a>
+						<a class="btn_green" href="#">Популярное</a>
+						<a class="btn_yellow" href="#">Новинки</a>
+						<a class="btn_purple" href="#">Распродажа</a>
+					</div>
+				</div>
+				
+				<div class="grid_12 slider_wrp">
+				
+					<div class="slider">
+
+					  <div>
+						<div class="single_slide">
+						  <div style="width:760px; margin-left:100px;">
+							<h1 class="cs3">HTML CONTENT</h1>
+							<h3 class="cs3">Highlight me...I'm CSS3 font-face text.</h3>
+						  </div>
+						</div>
+					  </div>
+
+					  <div>
+						<div class="single_slide">
+							<div style="width:760px; margin-left:100px;">
+								<img src="./img/banner1.png">
+							</div>
+						</div>
+					  </div>
+
+					</div>				
+				
+				</div>
+				
+				<div class="grid_12 wide_block promo">
+					<div class="block_header">
+						<h2>Новинки</h2>
+						<a href="#">Все новинки</a>
+						<img align="left" src="./img/star.png" width="20" height="20" />
+					</div>
+					<div class="clear"></div>			
+					<div class="wide_block_cont">
+						<a class="lft"></a>
+						<div class="carusel_horizont" id="scrollableNew">
+							<div class="items">
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 1</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">								
+									<a class="carusel_item" href="#">
+										<span>Название бренда 2</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 3</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 4</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 5</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 6</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 7</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+								<div class="item_wrp">
+									<a class="carusel_item" href="#">
+										<span>Название бренда 8</span>
+										<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+										<span>Название товара в две длинные строчки</span>
+									</a>
+								</div>
+							</div>							
+						</div>
+						<a class="rght"></a>						
+					</div>
+				</div>
+				
+				<div class="grid_12 wide_block main_cat">
+					<div class="block_header">
+						<ul class="tabs">
+							<li class="active_tab">
+								<a class="switch" href="#1">По категориям</a>
+								<a class="link" href="#">Все категории</a>
+							</li>
+							<li>
+								<a class="switch" href="#2">По брендам</a>
+								<a class="link" href="#">Все бренды</a>
+							</li>
+							<li>
+								<a class="switch" href="#3">Распродажа</a>
+								<a class="link" href="#">Все товары</a>
+							</li>
+						</ul>						
+						<img align="left" src="./img/star.png" width="20" height="20" />						
+					</div>					
+					<div class="clear"></div>			
+					<div class="wide_block_cont">
+						<div class="panes">
+							<div id="1">
+								<a class="lft"></a>
+								<div class="carusel_horizont" id="brand">
+									<div class="items">
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 1</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">								
+											<a class="carusel_item" href="#">
+												<span>Название бренда 2</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 3</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 4</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 5</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 6</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 7</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 8</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class="rght"></a>
+							</div>
+							
+							<div id="2">
+								<a class="lft"></a>
+								<div class="carusel_horizont" id="brand">
+									<div class="items">
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренд 1</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">								
+											<a class="carusel_item" href="#">
+												<span>бренда 2</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренда 3</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренда 4</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название бренда 5</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренда 6</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренда 7</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>бренда 8</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class="rght"></a>
+							</div>
+
+							<div id="3">
+								<a class="lft"></a>
+								<div class="carusel_horizont" id="brand">
+									<div class="items">
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 1</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">								
+											<a class="carusel_item" href="#">
+												<span>Название 2</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 3</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 4</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 5</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 6</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 7</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+										<div class="item_wrp">
+											<a class="carusel_item" href="#">
+												<span>Название 8</span>
+												<img align="left" src="http://placehold.it/150x150" width="150" height="150" />
+												<span>Название товара в две длинные строчки</span>
+											</a>
+										</div>
+									</div>
+								</div>
+								<a class="rght"></a>
+							</div>							
+							
+						</div>
+					</div>
+				</div>
+				<div class="clear"></div>
+				
+				<div class="grid_4 short_block">
+					<div class="block_header">
+						<a href="#"><h3>Новости</h3></a>
+					</div>
+					<div class="short_block_cont news_block">
+						<span class="date first">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+					</div>
+				</div>
+				<div class="grid_4 short_block">
+					<div class="block_header">
+						<a href="#"><h3>Лучшие бренды - у нас</h3></a>					
+					</div>
+					<div class="short_block_cont">
+						<br>
+						<br>
+						<img src="./img/brands.png" width="285">
+					</div>
+				</div>
+				<div class="grid_4 short_block">
+					<div class="block_header">
+						<a href="#"><h3>Специальные предложения</h3></a>
+					</div>
+					<div class="short_block_cont news_block">
+
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>
+
+						<span class="date">29.03.2012</span>
+						<p>Абсолютная новинка в серии радиоуправляемых машин Багги-Инсектор
+Новый принцип управления! Трансформация в повороте.</p>					
+					
+					</div>
+				</div>
+				
+				<div class="grid_12 about_shop">
+					<div class="text_about">
+				
+						<h1>Об интернет-магазине “ДУМ”</h1>
+						
+						<p>
+							Нас до работаешь поскольку, мы называть необходимо всю. Идея какого использует миф то, об без которое называть, он все надгробную погружаются. Будет джоэла ну нет, он жизнь филипа работать уже. Что их работы работник, но вот миров компании. Над давать хороша ну, бог ну сети заложенным
+						</p>
+						
+						<p>
+							Шагать сегодня его но, ну они насколько кандидата. Осколки неоригинальные не от. За сможем какому отдавали ещё. Что бы сажусь проходят, его труда платформ во. Две силы писать поставлять вы, помнить должником не от.
+						</p>
+						
+						<p>
+							Нью делала меньше разработки вы. Обеда программе их его, страниц эзотерическая всю мы, всех должен миф он. Об череды заботиться без. Без за сайта оставляя небольшой. Хорошего продукта проектировать биг ты, словарь сегодня он про.
+						</p>
+					
+					</div>				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="shadow"></div>
+		
+		<div class="footer">
+			<div class="container_12">
+				<div class="grid_12 bot_menu">
+					<div class="top_menu_navigation">
+						<a href="#">О магазине</a>|
+						<a href="#">Советы и рекомендации</a>|
+						<a href="#">Доставка и оплата</a>|
+						<a href="#">Контактная информация</a>|
+						<a href="#">Личный кабинет</a>|
+						<a href="#">Поставщикам</a>
+					</div>
+
+					<div class="social">
+						<a href="#"><img src="./img/social.png"></a>
+						<a href="#"><img src="./img/social.png"></a>
+						<a href="#"><img src="./img/social.png"></a>
+					</div>
+					
+					<div class="service">
+					Здесь права копирования, принадлежность сайта, контактная информация, счётчики
+					</div>
+					
+				</div>
+			</div>
+		</div>
+		
+
+	<script src="js/plugins.js"></script>
+	<script src="js/script.js"></script>	
+	</body>
+</html>

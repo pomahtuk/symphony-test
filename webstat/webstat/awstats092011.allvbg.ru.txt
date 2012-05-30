@@ -1,0 +1,646 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201109 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2553                
+POS_VISITOR 17024               
+POS_DAY 20546               
+POS_DOMAIN 3418                
+POS_LOGIN 3653                
+POS_ROBOT 3808                
+POS_WORMS 4071                
+POS_EMAILSENDER 4202                
+POS_EMAILRECEIVER 4345                
+POS_SESSION 20690               
+POS_SIDER 20886               
+POS_FILETYPES 4480                
+POS_OS 4744                
+POS_BROWSER 4837                
+POS_SCREENSIZE 5078                
+POS_UNKNOWNREFERER 5152                
+POS_UNKNOWNREFERERBROWSER 5256                
+POS_ORIGIN 5355                
+POS_SEREFERRALS 5506                
+POS_PAGEREFS 5676                
+POS_SEARCHWORDS 8043                
+POS_KEYWORDS 8349                
+POS_MISC 2217                
+POS_ERRORS 8568                
+POS_CLUSTER 3509                
+POS_SIDER_404 8761                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20111001000000 14821 4453637 6893230248997
+FirstTime 20110928222845
+LastTime 20110930213200
+LastUpdate 20111001000103 14821 0 14819 1 0
+TotalVisits 45                  
+TotalUnique 29                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 123                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 98 101 207510 4 64 2243909
+1 4 18 239416 6 66 2256020
+2 3 11 391821 4 67 2404859
+3 1 1 53 5 69 2369216
+4 1 1 53 4 78 2389184
+5 1 1 53 11 71 2319303
+6 13 144 254080 11 72 2310492
+7 42 137 360898 19 81 2315584
+8 593 993 2456855 17 88 2429402
+9 58 238 503132 13 77 2269686
+10 2137 2953 7542967 35 113 2329147
+11 1211 2081 7978670 20 91 2323099
+12 412 1441 4932489 9 71 2279198
+13 1755 2907 6635739 6 69 2307306
+14 1421 2271 8316915 6 73 2344448
+15 540 1083 3638791 12 76 2374657
+16 340 889 3986863 9 69 2309620
+17 59 327 2349035 3 64 2249976
+18 8 131 369749 5 104 3627093
+19 37 360 1641648 13 134 4543090
+20 25 155 750719 9 131 4565618
+21 235 823 2470531 19 146 3989030
+22 184 810 3197715 24 144 2344451
+23 858 1181 3546945 14 136 2312677
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 10036 19057 61772647
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 143 1821543 20110930235123 3
+yandex 16 162400 20110930233142 1
+slurp 2 284 20110930214903 2
+unknown 1 0 20110929083132 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 344 1682117 0 0
+png 4206 3471930 0 0
+ico 1 5430 0 0
+htm 2 1254 0 0
+swf 1 13806 0 0
+php 9094 19681712 0 0
+html 684 2988078 0 0
+jpg 1113 4412431 0 0
+js 2432 27865623 0 0
+Unknown 255 567328 0 0
+gif 925 1082938 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 5
+macosx 232
+winxp 12177
+winnt 6477
+Unknown 4
+linux 167
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 14
+msie8.0 87
+msie6.0 65
+firefox5.0 16
+firefox6.0.2 3853
+firefox7.0 1331
+msie7.0 60
+opera 1714
+msie9.0 2
+firefox3.6.22 3
+firefox7.0.1 1
+Unknown 4
+firefox3.0.10 147
+safari 11769
+firefox3.6.23 5
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+- 20110929222700
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+- 20110929222700
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 129 209
+From1 0 0
+From2 125 125
+From3 1376 3184
+From4 8406 15539
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 1 1
+yandex 124 124
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 39
+http://46.4.248.175/manager/index.php 732 1269
+http://46.4.248.175/widget.html 145 248
+http://46.4.248.175/manager1/ 121 378
+https://46.4.248.175/manager/ispmgr 83 292
+https://46.4.248.175/manager/ 68 146
+http://46.4.248.175/setup/index.php 35 90
+http://46.4.248.175/manager/ 26 87
+http://46.4.248.175/pmy/index.php 25 28
+http://46.4.248.175/pmy/navigation.php 23 49
+http://46.4.248.175/pmy/db_structure.php 15 35
+http://46.4.248.175/pmy/ 9 30
+http://46.4.248.175/setup/ 8 8
+http://46.4.248.175/index.php 3 39
+http://46.4.248.175/pmy/import.php 4 5
+http://46.4.248.175/pmy/main.php 4 53
+http://wdgt.yandex-team.ru/widgets/74600 5 5
+http://46.4.248.175/pmy/tbl_structure.php 2 11
+http://46.4.248.175/css/rateit.css 0 2
+http://46.4.248.175/pmy/db_import.php 4 6
+https://46.4.248.175/myadmin/index.php 3 5
+http://46.4.248.175/manager 1 2
+https://46.4.248.175/webmail/src/login.php 1 2
+https://46.4.248.175/ispmanager/ispmgr 0 30
+http://46.4.248.175/ispmanager/ 1 1
+https://46.4.248.175/myadmin/ 2 7
+http://46.4.248.175/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B0%D1%81%D0%BA.html 0 2
+https://46.4.248.175/myadmin/navigation.php 1 9
+https://46.4.248.175/myadmin/main.php 1 16
+http://46.4.248.175/undefined 5 74
+http://46.4.248.175/pmy/sql.php 9 22
+http://46.4.248.175/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B8-%D0%B0%D0%BF%D1%82%D0%B5%D0%BA%D0%B8/%D0%B0%D0%BF%D1%82%D0%B5%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BD%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D0%B2%D0%B0.html 0 8
+http://46.4.248.175/pmy/setup/ 1 11
+http://46.4.248.175/setup/assets/css/style.css 0 1
+http://46.4.248.175/pmy/setup/index.php 13 15
+https://46.4.248.175/ispmanager/ 13 48
+http://46.4.248.175/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BA%D0%BB%D1%83%D0%B1%D1%8B-%D0%BA%D0%B0%D1%84%D0%B5-%D0%B8-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B/%D0%BA%D0%B0%D1%84%D0%B5-%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B8%D0%BC.html 0 31
+http://46.4.248.175 13 109
+http://46.4.248.175/setup/assets/modx.css 0 5
+http://46.4.248.175/main_2.css 0 5
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 3
+www.allvbg.ru 4
+allvbg.ru 3
+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd+%d1%88%d1%82%d0%be%d1%80%d0%bc+%d0%b2+%d0%b2%d1%8b%d0%b1%d0%be%d1%80%d0%b3%d0%b5 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+www.allvbg.ru 4
+allvbg.ru 3
+%d0%b2%d1%8b%d0%b1%d0%be%d1%80%d0%b3%d0%b5 1
+%d0%b2 1
+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd 1
+%d1%88%d1%82%d0%be%d1%80%d0%bc 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 10
+503 3 343
+206 1 26678
+303 5 2122
+400 3 1102
+401 3 1167
+302 45 900
+405 3 519
+500 1 450
+404 1893 61179017
+301 35 10540
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 86
+/manager/assets/modext/build/core/modx.layout-min.js 1 http://46.4.248.175/manager1/
+/ 7 -
+/manager/assets/ext3/ext-all.js 1 http://46.4.248.175/manager1/
+/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%B4%D0%BE%D1%88%D0%BA%D0%BE%D0%BB%D1%8C%D0%BD%D0%BE%D0%B5-%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5.html 1 -
+/assets/components/phpthumbof/cache/795766b6430967f88849ea22b0c8271a.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/99e57b14cc7d97164dab8db65771582e.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/63acee774556226bba782f15dbddde06.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/manager/ 1 -
+/assets/components/phpthumbof/cache/9aef817a69a31ee355c68b75e5315759.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/js/jcookie.js 2 http://allvbg.ru/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/
+/ispmanag 1 -
+/assets/components/phpthumbof/cache/3aa4afaf34af61bc7bddc3209f1260bc.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/bcd34a2d4ac052f61ed1361b605cf142.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/manager/index.php 1 http://46.4.248.175/manager/index.php
+/mnager1 1 -
+/assets/components/phpthumbof/cache/0862bb61c7c9a94ee2b243140acd27dd.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/manager1/ 1 -
+/manager/assets/ext3/resources/css/ext-all-notheme-min.css 2 http://46.4.248.175/manager1/
+/manager/templates/default/css/modx-min.css 2 http://46.4.248.175/manager1/
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%BA%D0%B0%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5-%D0%B0%D0%B3%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%B0.html 1 http://www.google.ru/url
+/manager/assets/modext/util/filetree/img/icons/user2_16.png 1 https://allvbg.ru/manager/templates/default/css/modx-min.css
+/assets/components/phpthumbof/cache/3504f772e3b93b8dad6cc0a111422787.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/205b14708a053831307aa06eedffffc9.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/webdav/ 1 -
+/system/index_map_tmp.js 1769 -
+/ispmanager/p-camera.png 2 http://allvbg.ru/ispmanager/
+/assets/components/phpthumbof/cache/e3a9e969f93fcf8376ce3e7087840018.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D1%82%D1%83%D1%80%D1%84%D0%B8%D1%80%D0%BC%D1%8B-%D0%B8-%D1%82%D1%83%D1%80%D0%B0%D0%B3%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%B0/js/bootstrap-dropdown.js 2 http://allvbg.ru/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D1%82%D1%83%D1%80%D1%84%D0%B8%D1%80%D0%BC%D1%8B-%D0%B8-%D1%82%D1%83%D1%80%D0%B0%D0%B3%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%B0/
+/assets/components/phpthumbof/cache/f6829f7d2afd5072404150157204bba3.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/ispmanager/login-logo-ispmgr.gif 2 http://allvbg.ru/ispmanager/
+/assets/components/phpthumbof/cache/a28aa1410ab8dbf373d45ea3e6b9d37e.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D1%87%D0%B0%D1%81%D1%8B,-%D1%8E%D0%B2%D0%B5%D0%BB%D0%B8%D1%80%D0%BD%D1%8B%D0%B5-%D0%B8%D0%B7%D0%B4%D0%B5%D0%BB%D0%B8%D1%8F.html 1 -
+/setup/index.php 1 http://46.4.248.175/setup/index.php
+/manager/ft-right.png 1 https://46.4.248.175/manager/
+/assets/components/phpthumbof/cache/1fc876e1e59acdd5eef06bb3e39a79ab.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/undefined 19 http://allvbg.ru/widget.html
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/js/jquery.rateit.min.js 2 http://allvbg.ru/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/
+/manager/assets/modext/build/sections/welcome-min.js 1 http://46.4.248.175/manager1/
+/assets/components/phpthumbof/cache/e510b4c080289191c00df4a006e14a55.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/827a4c195591d7ec9a64de9c5316bce7.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/assets/components/phpthumbof/cache/a4967b1e6a484ca49ef5cbe27edf866b.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/manager/assets/ext3/adapter/ext/ext-base.js 1 http://46.4.248.175/manager1/
+/manager 1 -
+/assets/components/phpthumbof/cache/049420c9dbd411b9e6494cbe433e0880.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/1534e67ecb0d22911e160f166a330998.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0.html 2 -
+/pm 1 -
+/manager/assets/modext/modext-min.js 1 http://46.4.248.175/manager1/
+/assets/components/phpthumbof/cache/24bb0c64f62e2a27bf22837ea4eb8ce5.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/8e5df3d44d43620908006107d30b8013.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/manager/assets/modext/build/core/modx-min.js 1 http://46.4.248.175/manager1/
+/assets/components/phpthumbof/cache/e90a8f5e201c7ebfaeb724ea6092b956.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/3b6dabc83b50a6da983b52cb645e9373.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/ispmanager/ft-left.png 2 http://allvbg.ru/ispmanager/
+/assets/components/phpthumbof/cache/fdb51309f2112bff85e2838f74ff8d4a.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/manager/assets/modext/build/widgets/modx.panel.welcome-min.js 1 http://46.4.248.175/manager1/
+//yandex.st/share/share.js 2 -
+/assets/components/phpthumbof/cache/535e86d6e1d3060c3be9bbe75f6fbfe1.a3a2ff3f5ba91a5b4b2c3da30f6684f2.jpg 1 http://allvbg.ru/
+/manager/login-logo-ispmgr.gif 1 https://46.4.248.175/manager/
+/isp 1 -
+/manager/p-camera.png 1 https://46.4.248.175/manager/
+/assets/components/phpthumbof/cache/be194649e56cd87377e72abed489d61e.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/is 2 -
+/assets/components/phpthumbof/cache/698dac904753ffca8305cf7cb4ca91e7.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/f2119438def8dfbffce6380d9ae6c9d5.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/6a75c2498c5beece85054557df166dba.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/1.php 1 -
+/setup 1 -
+/assets/components/phpthumbof/cache/fd2be310afabb7d4f8d2a1031252840e.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/c8eabf76833b8d0f6ae3b5a7c75f1199.6cc5dd93717faee89c385b06d4040a2f.gif 1 -
+/assets/components/phpthumbof/cache/c3b7d9bc18a9df6d3066d6d89c3e07fb.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+//mc.yandex.ru/metrika/watch.js 2 -
+/assets/components/phpthumbof/cache/a4967b1e6a484ca49ef5cbe27edf866b.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/js/jquery.anythingslider.js 2 http://allvbg.ru/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/
+/ispmanager/ft-right.png 2 http://allvbg.ru/ispmanager/
+/manager/assets/modext/build/widgets/security/modx.grid.user.recent.resource-min.js 1 http://46.4.248.175/manager1/
+/phpmyadmin 1 -
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D1%86%D0%B2%D0%B5%D1%82%D1%8B-%D0%B8-%D1%81%D0%B0%D0%B4%D0%BE%D0%B2%D0%BE%D0%B4%D1%81%D1%82%D0%B2%D0%BE.html 1 -
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/js/bootstrap-dropdown.js 2 http://allvbg.ru/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BC%D0%B5%D1%81%D1%82%D0%B0-%D0%BE%D1%82%D0%B4%D1%8B%D1%85%D0%B0/
+/widget.html 1 http://46.4.248.175/widget.html
+/ispmana 1 -
+/p 1 -
+/assets/components/phpthumbof/cache/50f9f38f316d6ebf956fe940642116c1.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/assets/components/phpthumbof/cache/16335508ba8fa9a4d43327c8966ef6a0.6cc5dd93717faee89c385b06d4040a2f.jpg 1 -
+/manager/ft-left.png 1 https://46.4.248.175/manager/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 123
+194.105.194.66 7039 11487 35150335 20110930164531
+95.54.1.21 2180 3558 7754250 20110930144727
+95.54.53.90 225 921 2999667 20110930213146
+46.4.248.175 174 242 1010674 20110930213200
+95.54.32.87 134 289 718448 20110929070755
+95.54.54.69 125 1043 3263457 20110930065330
+95.54.35.13 65 353 1307439 20110929225601
+188.244.135.189 25 155 750719 20110929204212
+24.162.195.10 18 24 120100 20110929192229
+95.27.17.55 10 34 109399 20110929195043
+93.80.97.88 0 2 17575 
+95.25.57.230 0 3 6794 
+83.149.2.231 0 108 518642 
+95.27.116.170 0 1 32910 
+95.25.80.199 0 3 41577 
+89.178.39.240 1 1 36987 20110930013623
+95.154.230.191 2 16 189578 20110929225329
+95.24.33.134 1 2 38522 20110930021739
+95.220.132.41 0 1 1586 
+95.220.165.128 0 1 15403 
+216.104.15.134 0 3 302452 
+74.125.78.84 0 8 24036 
+95.27.97.163 0 2 6839 
+95.25.108.134 0 1 1293 
+46.73.197.6 0 2 8399 
+95.27.166.188 0 1 175 
+74.125.76.80 0 11 19937 
+176.195.208.158 0 1 7018 
+74.125.78.80 0 4 6218 
+83.149.3.26 0 11 100041 
+95.108.239.66 9 121 414296 20110929192351
+95.27.242.79 0 1 3470 
+95.24.62.166 0 1 3470 
+74.125.76.81 0 14 49260 
+95.28.8.140 0 1 6424 
+93.80.234.60 0 2 16942 
+46.73.1.121 0 1 7231 
+95.54.58.243 0 1 1293 
+95.27.35.7 0 2 1608 
+95.221.65.17 0 2 49539 
+93.153.254.98 9 172 1982274 20110930100119
+95.24.133.45 0 3 8500 
+95.26.143.180 0 1 696 
+74.125.78.81 0 6 22396 
+95.28.142.28 0 1 6424 
+95.221.94.100 0 2 16831 
+95.25.164.43 0 1 1481 
+46.73.46.83 0 2 1515 
+95.27.93.53 0 1 32910 
+84.204.214.180 0 132 1038476 
+94.180.158.121 0 1 1807 
+95.28.135.39 0 1 7219 
+176.14.77.124 0 3 48015 
+95.24.153.208 0 1 32910 
+176.195.246.240 0 1 32910 
+176.14.75.85 0 1 32910 
+150.70.75.37 0 1 264843 
+93.80.180.199 0 1 1481 
+216.104.15.142 0 1 1535 
+95.26.161.232 0 2 7803 
+74.125.76.83 0 13 14418 
+74.125.78.86 0 10 8033 
+188.168.47.236 4 5 8580 20110930094822
+176.14.46.54 1 2 43411 20110929235410
+89.178.54.57 1 1 36987 20110930014553
+95.24.11.118 0 1 1535 
+95.221.64.249 0 1 297 
+95.25.124.217 0 1 1481 
+95.220.165.222 0 1 4236 
+74.125.76.85 0 13 47850 
+93.80.228.128 0 1 153 
+95.221.66.186 1 4 25197 20110929231507
+93.80.30.179 0 1 364 
+74.125.78.87 0 9 6554 
+95.27.160.24 0 1 7231 
+95.221.87.24 0 1 1586 
+178.67.118.244 1 2 3412 20110929213227
+46.42.150.84 0 1 7107 
+95.27.138.77 0 1 264843 
+95.220.137.8 0 1 34496 
+95.24.224.204 0 2 35259 
+176.14.11.100 0 1 34496 
+95.25.13.162 0 1 42726 
+95.25.140.137 0 1 297 
+74.125.78.83 0 5 37886 
+74.125.76.82 0 11 318946 
+95.24.133.166 0 1 4236 
+74.125.76.84 0 4 3034 
+95.221.66.123 0 1 6664 
+46.42.134.186 0 1 1586 
+95.220.161.234 0 1 264843 
+95.28.175.250 0 1 4236 
+95.220.167.226 1 2 9043 20110929231417
+217.118.78.120 0 15 105287 
+150.70.64.196 0 1 264843 
+95.25.237.192 1 1 7270 20110930021752
+94.180.147.32 0 1 4236 
+95.221.117.209 0 1 264843 
+95.28.131.216 0 3 36502 
+93.80.228.96 1 2 8955 20110929231217
+95.25.166.55 0 2 1762 
+95.220.237.112 0 1 6419 
+176.14.15.225 0 1 6424 
+95.25.80.30 1 1 7091 20110929233502
+74.125.76.87 0 12 341958 
+95.220.185.140 0 4 10517 
+95.221.78.217 0 2 36031 
+74.125.78.82 0 17 18231 
+216.104.15.138 0 2 34496 
+176.14.75.53 0 1 4236 
+95.28.175.238 0 1 1521 
+92.255.216.37 1 1 1659 20110929231420
+89.178.9.19 0 1 9924 
+93.80.14.232 1 2 38508 20110929233451
+74.125.78.85 0 16 18495 
+176.14.184.118 1 1 7169 20110929235415
+95.54.2.81 3 37 215255 20110929174518
+95.54.2.67 0 1 1293 
+83.149.3.211 0 48 323260 
+95.220.185.90 1 1 1659 20110929231220
+74.125.76.86 0 9 53825 
+95.221.73.45 0 1 1535 
+95.26.170.203 0 1 1481 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20110928 80 122 254194 2
+20110929 2480 5795 16583596 26
+20110930 7476 13140 44934857 17
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+1h+ 7
+5mn-15mn 8
+2mn-5mn 3
+15mn-30mn 7
+0s-30s 17
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 120
+/connectors/system/phpthumb.php 5147 10095962 0 0
+/connectors/resource/index.php 1409 1039300 2 4
+/connectors/browser/directory.php 360 422152 1 0
+/connectors/resource/resourcegroup.php 330 15960 0 0
+/widget.html 289 533164 9 8
+/connectors/lang.js.php 235 3610066 0 2
+/connectors/layout/modx.config.js.php 226 1032813 0 0
+/manager/index.php 196 2136100 1 0
+/connectors/system/contenttype.php 165 53295 0 0
+/connectors/system/classmap.php 165 27885 0 0
+/setup/ 5 5005 0 0
+/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F/%D0%B3%D0%BE%D1%81.-%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D1%8B/%D0%B2%D0%BE%D0%B5%D0%BD%D0%BA%D0%BE%D0%BC%D0%B0%D1%82.html 1 8576 0 0
+/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/7-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0.html 1 8771 0 1
+/ 112 1092094 16 13
+/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B-%D0%B8-%D0%BE%D1%80%D0%B3%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80-%D0%BC%D0%B0%D1%80%D0%BA%D0%B5%D1%82.html 1 8815 0 0
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BA%D0%BB%D1%83%D0%B1%D1%8B-%D0%BA%D0%B0%D1%84%D0%B5-%D0%B8-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B/%D0%BA%D0%B0%D1%84%D0%B5-%D0%BF%D1%80%D0%B8%D1%87%D0%B0%D0%BB.html 1 8862 0 1
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0/%D0%B1%D1%83%D0%BA%D0%B2%D0%B0.html 1 8614 0 0
+/manager/ 37 279357 4 0
+/%D1%82%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/%D0%BA%D0%BE%D0%BC%D0%BF%D1%8C%D1%8E%D1%82%D0%B5%D1%80%D1%8B-%D0%B8-%D0%BE%D1%80%D0%B3%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/ 1 12639 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B/%D0%B7%D0%B4%D0%BE%D1%80%D0%BE%D0%B2%D1%8B%D0%B9-%D0%BC%D0%B0%D0%BB%D1%8B%D1%88.html 2 16576 0 0
+/connectors/system/charset.php 2 2414 0 0
+/connectors/workspace/packages.php 37 81105 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/ 1 26388 0 0
+/manager1/ 13 128426 0 0
+/connectors/element/template/tv.php 14 4612 0 0
+/connectors/security/access/usergroup/category.php 2 96 0 0
+/%D0%B8%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D1%8F/%D0%BF%D0%BB%D0%B0%D1%82%D1%91%D0%B6%D0%BD%D1%8B%D0%B5-%D1%82%D0%B5%D1%80%D0%BC%D0%B8%D0%BD%D0%B0%D0%BB%D1%8B.html 2 22836 0 0
+/connectors/element/template.php 155 61949 0 0
+/pmy/tbl_replace.php 1 988 0 0
+/myadmin/index.php 2 3676 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%BA%D0%BE%D0%BD%D1%81%D1%82%D0%B0%D0%BD%D1%81-%D0%B1%D0%B0%D0%BD%D0%BA.html 3 28329 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%BF%D0%BE%D0%B9%D0%B4%D1%91%D0%BC!.html 1 8671 0 0
+/webmail/src/redirect.php 1 633 0 0
+/connectors/security/access/usergroup/context.php 2 96 0 0
+/connectors/security/role.php 8 1699 0 0
+/connectors/security/user.php 30 26907 0 0
+/pmy/setup/index.php 8 36069 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%81%D1%82%D1%80%D0%B0%D1%85%D0%BE%D0%B2%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B0%D1%81%D0%BA.html 2 17539 0 0
+/pmy/js/messages.php 5 11039 0 0
+/pmy/import.php 3 15205 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%B2%D0%B8%D0%B4%D0%B5%D0%BE,-cd,-dvd/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD-%D1%88%D1%82%D0%BE%D1%80%D0%BC.html 2 17174 0 0
+/setup/index.php 30 53113 0 0
+/myadmin/ 1 2623 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BC%D0%B5%D0%B4%D0%B8%D1%86%D0%B8%D0%BD%D0%B0-%D0%B8-%D0%B0%D0%BF%D1%82%D0%B5%D0%BA%D0%B8/%D0%B0%D0%BF%D1%82%D0%B5%D0%BA%D0%B0-%D0%BD%D0%B0-%D0%BD%D0%B5%D0%BA%D1%80%D0%B0%D1%81%D0%BE%D0%B2%D0%B0.html 1 8599 0 0
+/connectors/security/usergroup/user.php 3 703 0 0
+/connectors/workspace/providers.php 4 1400 0 0
+/manimg/sirius/graph.swf 1 13806 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D0%B8-%D0%BE%D0%B1%D1%83%D0%B2%D1%8C/maxxli-man.html 1 8547 0 0
+/connectors/system/index.php 17 4233 0 0
+/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%88%D0%BA%D0%BE%D0%BB%D1%8B/11-%D1%88%D0%BA%D0%BE%D0%BB%D0%B0.html 2 17208 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D0%BF%D0%B8%D0%B2%D0%B7%D0%B0%D0%B2%D0%BE%D0%B4.html 1 8495 0 0
+/pmy/setup/ 1 3619 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B-%D0%B4%D0%BB%D1%8F-%D0%B4%D0%BE%D0%BC%D0%B0/%D0%B4%D0%BE%D0%BC-%D0%B8-style.html 1 8715 0 0
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D1%81%D0%BF%D0%BE%D1%80%D1%82%D0%B8%D0%B2%D0%BD%D1%8B%D0%B5-%D1%86%D0%B5%D0%BD%D1%82%D1%80%D1%8B/ 1 12527 0 0
+/pmy/db_structure.php 9 52475 0 0
+/pmy/sql.php 9 70452 0 0
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%BF%D0%BE%D0%BB%D0%B8%D0%BA%D0%BB%D0%B8%D0%BD%D0%B8%D0%BA%D0%B8-%D0%B8-%D0%B1%D0%BE%D0%BB%D1%8C%D0%BD%D0%B8%D1%86%D1%8B/%D1%86%D0%B5%D0%BD%D1%82%D1%83%D1%80%D0%B8%D1%8F.html 1 8650 0 0
+/connectors/element/propertyset.php 30 3480 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%BF%D1%80%D0%BE%D0%BC%D1%8B%D1%88%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE%D1%81%D1%82%D1%8C/%D0%BE%D0%B0%D0%BE-%D0%BB%D0%B5%D0%BD%D0%BE%D0%B1%D0%BB%D0%B3%D0%B0%D0%B7.html 1 8533 0 1
+/connectors/security/access/policy/template.php 6 1626 0 0
+/connectors/system/databasetables.php 1 112 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8/ 1 11676 0 0
+/pmy/setup/config.php 1 366 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%B0%D0%B2%D1%82%D0%BE%D0%B7%D0%B0%D0%BF%D1%87%D0%B0%D1%81%D1%82%D0%B8/%D0%B0%D0%B2%D1%82%D0%BE%D1%8D%D0%BC%D0%B0%D0%BB%D0%B8-maxmayer.html 1 9217 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%B3-%D0%B1%D0%B0%D0%BD%D0%BA-%D0%BD%D0%B0-%D0%BC%D0%B8%D1%80%D0%B0.html 1 8647 0 0
+/connectors/element/index.php 163 74591 0 0
+/connectors/context/index.php 1 167 0 0
+/connectors/security/access/usergroup/resourcegroup.php 4 703 0 0
+/webmail/src/login.php 1 970 0 0
+/pmy/tbl_structure.php 1 7084 0 0
+/%D0%B4%D0%BE%D1%81%D1%83%D0%B3/%D0%BA%D0%BB%D1%83%D0%B1%D1%8B-%D0%BA%D0%B0%D1%84%D0%B5-%D0%B8-%D1%80%D0%B5%D1%81%D1%82%D0%BE%D1%80%D0%B0%D0%BD%D1%8B/%D0%BA%D0%B0%D1%84%D0%B5-%D1%8D%D0%BA%D1%81%D1%82%D1%80%D0%B8%D0%BC.html 8 70096 0 0
+/myadmin/navigation.php 1 1385 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D1%8D%D1%80%D0%BE%D1%82%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B/%D0%B8%D0%BD%D1%82%D0%B8%D0%BC.html 1 8560 0 0
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%BF%D0%B0%D1%80%D0%B8%D0%BA%D0%BC%D0%B0%D1%85%D0%B5%D1%80%D1%81%D0%BA%D0%B8%D0%B5/%D0%BF%D0%B0%D1%80%D0%B8%D0%BA%D0%BC%D0%B0%D1%85%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F-%D0%B6%D0%B5%D0%BC%D1%87%D1%83%D0%B6%D0%B8%D0%BD%D0%B0-%D0%B6%D0%B8%D0%B7%D0%BD%D0%B8.html 1 8691 0 0
+/assets/components/tinymce/jscripts/tiny_mce/themes/advanced/source_editor.htm 2 1254 0 0
+/data.html 153 299509 7 11
+/connectors/system/rte.php 2 220 0 0
+/setup/processors/connector.php 14 20317 0 0
+/pmy/db_import.php 2 10251 0 0
+/shop.html 1 8905 0 0
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%80%D0%B5%D0%BA%D0%BB%D0%B0%D0%BC%D0%B0/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D1%84%D0%BE%D1%82%D0%BE-%D1%81%D1%82%D1%83%D0%B4%D0%B8%D1%8F-%D0%B1%D0%BB%D0%B8%D1%86.html 2 17422 0 0
+/assets/components/tinymce/jscripts/tiny_mce/plugins/modxlink/link.php 3 8103 0 0
+/ispmanager/ispmgr 104 234660 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D1%81%D0%B2%D0%B0%D0%B4%D0%B5%D0%B1%D0%BD%D1%8B%D0%B5-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD%D1%8B/%D1%81%D0%B2%D0%B0%D0%B4%D0%B5%D0%B1%D0%BD%D1%8B%D0%B9-%D1%81%D0%B0%D0%BB%D0%BE%D0%BD-%D0%B0%D0%BD%D0%BD%D0%B0-%D0%BC%D0%B0%D1%80%D0%B8%D1%8F.html 1 8856 0 0
+/connectors/resource/locks.php 82 6314 0 1
+/pmy/ 3 7645 1 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/%D1%81%D0%B1%D0%B5%D1%80%D0%B1%D0%B0%D0%BD%D0%BA.html 2 19876 0 0
+/myadmin/phpmyadmin.css.php 3 45274 0 0
+/1.php 8 35106 0 0
+/connectors/system/settings.php 21 54030 0 0
+/ispmanager/ 10 13507 1 0
+/connectors/system/activeresource.php 1 112 0 0
+/pmy/setup/validate.php 5 330 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%8B-%D0%BF%D0%B8%D1%82%D0%B0%D0%BD%D0%B8%D1%8F/beergemot.html 1 8680 0 0
+/manager/ispmgr 151 332668 2 1
+/pmy/index.php 15 25078 0 0
+/connectors/security/group.php 13 2194 0 1
+/connectors/element/category.php 20 7920 0 0
+/connectors/workspace/namespace.php 4 1240 0 0
+/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D0%B2%D1%83%D0%B7%D1%8B/ 1 55928 0 0
+/myadmin/main.php 1 8012 0 0
+/connectors/security/access/index.php 1 77 0 0
+/pmy/phpmyadmin.css.php 45 298112 0 1
+/connectors/element/chunk.php 16 2060 0 0
+/connectors/system/errorlog.php 14 109404 1 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D1%8E%D1%80%D0%B8%D1%81%D0%BF%D1%80%D1%83%D0%B4%D0%B5%D0%BD%D1%86%D0%B8%D1%8F/%D0%BD%D0%BE%D1%82%D0%B0%D1%80%D0%B8%D0%B0%D0%BB%D1%8C%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BD%D1%82%D0%BE%D1%80%D0%B0.html 1 8666 0 0
+/%D0%BE%D0%B1%D1%80%D0%B0%D0%B7%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5/%D1%88%D0%BA%D0%BE%D0%BB%D1%8B.html 2 23460 0 0
+/connectors/security/resourcegroup.php 5 439 0 0
+/connectors/security/access/policy.php 7 3285 0 0
+/%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8-%D0%B8-%D1%81%D0%BC%D0%B8/%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%B0-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8/%D0%B0%D0%B3%D0%B5%D0%BD%D1%82%D1%81%D1%82%D0%B2%D0%BE-%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8-%D0%BA%D0%B2%D0%B0%D1%80%D1%82%D0%B5%D1%82.html 2 19082 0 0
+/%D0%B1%D0%B8%D0%B7%D0%BD%D0%B5%D1%81/%D0%B1%D0%B0%D0%BD%D0%BA%D0%BE%D0%B2%D1%81%D0%BA%D0%B8%D0%B5-%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8/ 2 25486 0 0
+/connectors/system/language.php 3 318 0 0
+/pmy/main.php 5 37684 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B8%D0%B5-%D1%82%D0%BE%D0%B2%D0%B0%D1%80%D1%8B/%D0%B4%D0%B5%D1%82%D1%81%D0%BA%D0%B0%D1%8F-%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D0%BD%D0%B5%D0%B6%D0%BD%D1%8B%D0%B9-%D0%B2%D0%BE%D0%B7%D1%80%D0%B0%D1%81%D1%82.html 2 17513 0 0
+/index.php 3 16536 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D0%B8-%D0%BE%D0%B1%D1%83%D0%B2%D1%8C/%D0%BC%D0%B8%D0%BB%D0%B5%D0%B4%D0%B8.html 1 8639 0 0
+/connectors/system/remove_locks.php 1 77 0 0
+/connectors/browser/file.php 2 248 0 0
+/pmy/navigation.php 14 36090 0 0
+/%D0%BC%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD%D1%8B/%D0%BE%D0%B4%D0%B5%D0%B6%D0%B4%D0%B0-%D0%B8-%D0%BE%D0%B1%D1%83%D0%B2%D1%8C/step.html 1 8665 0 0
+END_SIDER
