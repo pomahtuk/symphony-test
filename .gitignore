@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 # ignore all .htaccess
 .htaccess
@@ -37,3 +38,17 @@ setup/config.xml
 setup/config.new.xml
 setup/config.upgrade.xml
 setup/config.upgrade-advanced.xml
+=======
+# Bootstrap
+app/bootstrap*
+
+# Symfony directories
+vendor/*
+*/logs/*
+*/cache/*
+web/uploads/*
+web/bundles/*
+
+# Configuration files
+app/config/parameters.ini
+>>>>>>> acb4d8b58bd7ed0f0c565807bb93e17203db4238
